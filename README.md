@@ -7,63 +7,61 @@ Given a dataset containing various features of food deliveries (e.g., distance, 
 # 📊 Dataset Overview
 The dataset includes the following features:
 
-Delivery_person_Age
+ • Delivery_person_Age
 
-Delivery_person_Ratings
+ • Delivery_person_Ratings
 
-Distance(km)
+ • Distance(km)
 
-Type_of_order
+ • Type_of_order
 
-Type_of_vehicle
+ • Type_of_vehicle
 
-Weather
+ • Weather
 
-Road_traffic_density
+ • Road_traffic_density
 
-multiple_deliveries
+ • multiple_deliveries
 
-Time_taken(min) (Target)
+ • Time_taken(min) (Target)
 
 # 🧹 Data Preprocessing
-Handled missing values.
+ • Handled missing values.
 
-Applied encoding to categorical features.
+ • Applied encoding to categorical features.
 
-Scaled numerical features using StandardScaler.
+ • Scaled numerical features using StandardScaler.
 
-Combined transformations using ColumnTransformer.
+ • Combined transformations using ColumnTransformer.
 
 # 🧠 Models Used
 Several machine learning models were evaluated:
 
-Linear Regression
+ • Linear Regression
 
-K-Nearest Neighbors (KNN)
+ • K-Nearest Neighbors (KNN)
 
-Support Vector Regressor (SVR)
+ • Support Vector Regressor (SVR)
 
-Decision Tree Regressor
+ • Decision Tree Regressor
 
-Random Forest Regressor
+ • Random Forest Regressor
 
-Optuna for hyperparameter tuning
+ • Optuna for hyperparameter tuning
 
 # 📈 Evaluation Metrics
-Mean Absolute Error (MAE)
+ • Mean Absolute Error (MAE)
 
-R² Score
+ • R² Score
 
-Cross-Validation Score
+ • Cross-Validation Score
 
 # ✅ Results
-The best-performing model yielded:
+ • The best-performing model yielded:
 
-MAE ≈ 5 minutes
+ • MAE ≈ 5 minutes
 
-R² Score ≈ 42%
-
-MAPE ≈ 24%
+ • R² Score ≈ 82%
 
 # 📁 Project Structure
 
@@ -76,8 +74,9 @@ Install the required libraries using:
 
 ```
 pip install -r requirements.txt
+```
 requirements.txt
-
+```
 matplotlib>=3.4.0
 numpy>=1.22.0
 optuna>=3.0.0
@@ -86,12 +85,12 @@ seaborn>=0.11.0
 scikit-learn>=1.0
 ```
 # 📌 How to Run
-Clone the repo.
+1. Clone the repo.
 
-Install the required packages (see above).
+2. Install the required packages (see above).
 
-Open and run food-delivery-time.ipynb.
+3. Open and run food-delivery-time.ipynb.
 
 📬 Contact
-Made with ❤️ by Raj Jaiswal
+Made by Raj Jaiswal
 Feel free to connect on LinkedIn or view my other projects on GitHub
