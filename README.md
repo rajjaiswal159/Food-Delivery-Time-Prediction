@@ -91,6 +91,6 @@ scikit-learn>=1.0
 
 3. Open and run food-delivery-time.ipynb.
 
-📬 Contact
+📬 Contact : 
 Made by Raj Jaiswal
 Feel free to connect on LinkedIn or view my other projects on GitHub
