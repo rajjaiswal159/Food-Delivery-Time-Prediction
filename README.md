@@ -90,7 +90,7 @@ scikit-learn>=1.0
 2. Install the required packages (see above).
 
 3. Open and run food-delivery-time.ipynb.
-
-📬 Contact : 
+ 
 Made by Raj Jaiswal
+<br>
 Feel free to connect on LinkedIn or view my other projects on GitHub
